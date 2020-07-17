@@ -1,0 +1,96 @@
+{
+    // app window customisations
+    // *************************
+    "window.zoomLevel": -0.8,
+    // general settings
+    // ****************
+    "files.trimTrailingWhitespace": true,
+    //"eslint.autoFixOnSave": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Terminal customisations
+    // ***********************
+    "terminal.integrated.fontFamily": " 'MesloLGS NF' ",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.inheritEnv": true,
+    // workbench customisations
+    // ************************
+    "workbench.tree.indent": 16,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#d3ba12",
+        "editorIndentGuide.background": "#3a3833",
+        // bio dark theme
+        "sideBar.background": "#202835",
+        "activityBar.background": "#202835",
+        "activityBar.inactiveForeground": "#5c566c",
+        "activityBar.foreground": "#807596",
+        "activityBar.border": "#191e26",
+        "terminal.background": "#1e242e",
+        "panel.background": "#1e242e"
+    },
+    // editor customisations
+    // *********************
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Operator Mono Lig', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "300",
+    "editor.suggestSelection": "first",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.tokenColorCustomizations": {
+        "comments": "#4d5354",
+        //"strings": "#739261",
+        "textMateRules": [
+            {
+                "scope": "keyword, keyword.declaration.dart, storage.type, comment",
+                "settings": {
+                    "fontStyle": "italic "
+                }
+            }
+        ]
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.testing.unittestEnabled": true,
+    //"python.pythonPath": "/Users/ed/opt/miniconda3/envs/mlkit/bin/python",
+    //"python.pythonPath": "/Users/ed/opt/miniconda3/envs/pykit/bin/python",
+    "python.dataScience.runStartupCommands": "%config IPCompleter.use_jedi = False",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "python": "$pythonPath -u $fullFileName",
+        "csharp": "scriptcs",
+        "typescript": "ts-node"
+    },
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "workbench.colorTheme": "Bio Dark",
+    "python.formatting.provider": "black",
+    "editor.minimap.scale": 2,
+    "python.languageServer": "Microsoft",
+    "java.semanticHighlighting.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "sonarlint.rules": {
+        "java:S2699": {
+            "level": "off"
+        }
+    },
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        },
+        {
+            "id": "redhat.vscode-server-connector",
+            "name": "Red Hat Server Connector",
+            "startOnActivation": true
+        }
+    ]
+}
